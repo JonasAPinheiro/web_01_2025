@@ -14,10 +14,10 @@ do {
   num++;
 } while (num < 5);
 
-const numeros = [10, 20, 30, 40];
-for (const num of numeros) {
-  console.log(`Número : ${num}`);
-}
+// const numeros = [10, 20, 30, 40];
+// for (const num of numeros) {
+//   console.log(`Número : ${num}`);
+// }
 
 const pessoa = { nome: "Alice", idade: 25, cidade: "São Paulo" };
 for (const chave in pessoa) {
