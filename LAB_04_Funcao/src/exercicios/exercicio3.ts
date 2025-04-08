@@ -1,7 +1,12 @@
-const numeros: number[] = [10, 20, 30, 40, 50];
+const numeros: number[] = [10, 20, 30, 40, 50, 60];
 
 function dobrarNumeros(numeros: number[]): number[]{
-    const numerosDobrados: number[] = numeros.map(numero => numero * 2);
+    let numerosDobrados: Array<number> = [];
+    
+    for(let i = 0; i < numeros.length; i++){
+        numerosDobrados[i] = numeros[i] * 2;
+    }
+
     return numerosDobrados;
 }
 
